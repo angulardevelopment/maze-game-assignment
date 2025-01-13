@@ -3,7 +3,8 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-maze',
   templateUrl: './maze.component.html',
-  styleUrls: ['./maze.component.css']
+  styleUrls: ['./maze.component.css'],
+  standalone: false
 })
 export class MazeComponent implements AfterViewInit {
   stepsCount = 0;

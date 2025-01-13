@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "maze:build"
+            "buildTarget": "maze:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "maze:build:production"
+              "buildTarget": "maze:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "maze:build"
+            "buildTarget": "maze:build"
           }
         },
         "test": {
