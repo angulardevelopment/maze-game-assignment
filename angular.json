@@ -20,7 +20,6 @@
             "outputPath": "dist/maze",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -83,7 +82,6 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
@@ -124,7 +122,6 @@
       }
     }
   },
-  "defaultProject": "maze",
   "cli": {
     "analytics": false
   }

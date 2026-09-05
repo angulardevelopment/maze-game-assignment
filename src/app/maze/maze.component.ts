@@ -32,8 +32,7 @@ export class MazeComponent implements AfterViewInit {
     position = { x: firstmushroom, y: firstmushroom };
     firstGrid.appendChild(circle);
     let lengthDiv = 0;
-    function handleKey(e) {
-      const obj = this;
+    const handleKey = (e: any) => {
       lengthDiv++;
       switch (e.keyCode) {
         case keys.left:
